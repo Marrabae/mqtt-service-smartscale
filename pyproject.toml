@@ -1,0 +1,15 @@
+[project]
+name = "mqtt-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiomqtt>=2.4.0",
+    "certifi>=2025.11.12",
+    "dotenv>=0.9.9",
+    "paho-mqtt>=2.1.0",
+    "pyinstaller>=6.17.0",
+    "pyserial-asyncio>=0.6",
+    "serial>=0.0.97",
+]

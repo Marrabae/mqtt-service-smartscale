@@ -1,0 +1,32 @@
+[2025-12-12 16:43:16] ============================================================
+[2025-12-12 16:43:16] MQTT Scale Publisher Service Started
+[2025-12-12 16:43:16] Broker: 97994e3b65704f3ebbe1951277c93509.s1.eu.hivemq.cloud:8883
+[2025-12-12 16:43:16] Publishing to: DATA/WEIGHT
+[2025-12-12 16:43:16] Serial Port: COM1 @ 9600 baud
+[2025-12-12 16:43:16] Stable requirement: 3 times
+[2025-12-12 16:43:16] ============================================================
+[2025-12-12 16:43:16] Connected to MQTT Broker
+[2025-12-12 16:43:16] Error opening serial port: could not open port 'COM1': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+[2025-12-12 16:43:16] Falling back to simulation mode...
+[2025-12-12 16:43:16] Running in SIMULATION MODE
+[2025-12-12 16:43:16] Simulated data: U 0.00
+[2025-12-12 16:43:18] Simulated data: U 0.01
+[2025-12-12 16:43:21] Simulated data: U 0.05
+[2025-12-12 16:43:23] Simulated data: S 0.25
+[2025-12-12 16:43:23] New stable weight detected: 0.250 kg (count reset)
+[2025-12-12 16:43:25] Simulated data: S 0.25
+[2025-12-12 16:43:25] Stable 2/3: 0.250 kg
+[2025-12-12 16:43:25] 
+Service stopped by user
+[2025-12-12 17:23:06] ============================================================
+[2025-12-12 17:23:06] SCALE DEVICE SERVICE STARTED
+[2025-12-12 17:23:06] Serial: COM1 @ 9600
+[2025-12-12 17:23:06] Filter: Wajib 3x Stabil berturut-turut
+[2025-12-12 17:23:06] ============================================================
+[2025-12-12 17:23:06] ❌ Serial Error: could not open port 'COM1': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+[2025-12-12 17:28:54] ============================================================
+[2025-12-12 17:28:54] SCALE SERVICE (PAHO MQTT VERSION)
+[2025-12-12 17:28:54] Serial: COM1 @ 9600
+[2025-12-12 17:28:54] Mode: Localhost (No SSL)
+[2025-12-12 17:28:54] ============================================================
+[2025-12-12 17:28:54] ❌ Serial Error: could not open port 'COM1': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
