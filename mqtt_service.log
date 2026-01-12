@@ -30,3 +30,24 @@ Service stopped by user
 [2025-12-12 17:28:54] Mode: Localhost (No SSL)
 [2025-12-12 17:28:54] ============================================================
 [2025-12-12 17:28:54] ❌ Serial Error: could not open port 'COM1': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+[2026-01-07 16:14:46] ============================================================
+[2026-01-07 16:14:46] SCALE SERVICE (PAHO MQTT VERSION)
+[2026-01-07 16:14:46] Serial: COM1 @ 9600
+[2026-01-07 16:14:46] Mode: Localhost (No SSL)
+[2026-01-07 16:14:46] ============================================================
+[2026-01-07 16:14:46] ❌ Serial Error: could not open port 'COM1': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+[2026-01-07 16:47:12] ============================================================
+[2026-01-07 16:47:12] SCALE SERVICE (SIMULATION SUPPORT)
+[2026-01-07 16:47:12] Serial Target: COM1 @ 9600
+[2026-01-07 16:47:12] ============================================================
+[2026-01-07 16:47:12] ⚠️ Serial Error: could not open port 'COM1': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+[2026-01-07 16:47:12] 👉 Masuk ke MODE SIMULASI (Mengirim Data Dummy)
+[2026-01-07 16:47:12] Connecting to Broker...
+[2026-01-07 16:47:12] ✅ MQTT Connected to localhost:1883
+[2026-01-07 16:48:09] 🛑 Service Stopping...
+2026-01-07 17:04:43.331 | INFO     | __main__:run:56 - SCALE SERVICE STARTED (NO SIMULATION)
+2026-01-07 17:04:43.352 | WARNING  | __main__:connect_serial_device:49 - Menunggu Timbangan (COM1)...
+2026-01-07 17:04:43.357 | INFO     | __main__:on_connect:35 - MQTT Connected to localhost:1883
+2026-01-07 17:04:48.353 | WARNING  | __main__:connect_serial_device:49 - Menunggu Timbangan (COM1)...
+2026-01-07 17:04:53.354 | WARNING  | __main__:connect_serial_device:49 - Menunggu Timbangan (COM1)...
+2026-01-07 17:04:57.060 | INFO     | __main__:run:88 - Service Stopping...

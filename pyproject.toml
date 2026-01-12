@@ -8,6 +8,7 @@ dependencies = [
     "aiomqtt>=2.4.0",
     "certifi>=2025.11.12",
     "dotenv>=0.9.9",
+    "loguru>=0.7.3",
     "paho-mqtt>=2.1.0",
     "pyinstaller>=6.17.0",
     "pyserial-asyncio>=0.6",
